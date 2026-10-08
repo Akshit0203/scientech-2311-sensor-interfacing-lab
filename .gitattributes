@@ -1,0 +1,13 @@
+# Normalise line endings for text files
+* text=auto eol=lf
+
+# Binary assets
+*.jpg  binary
+*.jpeg binary
+*.png  binary
+*.pdf  binary
+*.xlsx binary
+
+# Linguist: count the Python toolkit, treat docs as documentation
+docs/**        linguist-documentation
+experiments/** linguist-documentation
